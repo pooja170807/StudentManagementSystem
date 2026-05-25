@@ -8,6 +8,6 @@ Features:
 - Average calculation
 - Grade system
 - Pass/Fail result
-- 
+
 Sample Output:
 (Output screenshot uploaded in repository)

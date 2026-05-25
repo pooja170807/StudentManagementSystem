@@ -49,22 +49,22 @@ public class StudentManagementSystem {
         s.avg=(s.tot/5);
         System.out.println("Average mark  : "+s.avg);
         if(s.avg>=90){
-            System.out.println("Grade     : O");
+            System.out.println("Grade        : O");
         }else if(s.avg>=85){
-            System.out.println("Grade: A+");
+            System.out.println("Grade        : A+");
         }else if(s.avg>=80){
-            System.out.println("Grade: A");
+            System.out.println("Grade        : A");
         }else if(s.avg>=70){
-            System.out.println("Grade: B");
+            System.out.println("Grade        : B");
         }else if(s.avg>=60){
-            System.out.println("Grade: C");
+            System.out.println("Grade        : C");
         }else{
-            System.out.println("Grade: D");
+            System.out.println("Grade        : D");
         }
         if(s.mark1>=34&&s.mark2>=34&&s.mark3>=34&&s.mark4>=34&&s.mark5>=34){
-            System.out.println("Reault   : Pass");
+            System.out.println("Reault       : Pass");
         }else{
-            System.out.println("Result   : Fail");
+            System.out.println("Result       : Fail");
         }
        System.out.println("==================================="); 
     }

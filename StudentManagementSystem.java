@@ -14,7 +14,7 @@ class Student{
     int mark1,mark2,mark3,mark4,mark5;
     int tot;
     double avg;
-    void calcuation(){
+    void calculation(){
         tot=mark1+mark2+mark3+mark4+mark5;
         avg=(tot/5.0);
     }
@@ -73,7 +73,7 @@ public class StudentManagementSystem {
         System.out.print("Enter Social Mark      : ");
         s.mark5=sc.nextInt();
         System.out.println("\n");
-        s.calcuation();
+        s.calcualtion();
         s.display();
     }
 }

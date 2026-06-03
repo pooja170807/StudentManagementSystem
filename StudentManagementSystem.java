@@ -73,7 +73,7 @@ public class StudentManagementSystem {
         System.out.print("Enter Social Mark      : ");
         s.mark5=sc.nextInt();
         System.out.println("\n");
-        s.calcualtion();
+        s.calculation();
         s.display();
     }
 }
